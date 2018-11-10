@@ -1,13 +1,4 @@
-# 我整理的GO语言相关学习资料
-前辈整理的相关资料汇总
-https://github.com/enocom/gopher-reading-list
+## 我的学习笔记整理
 
-
-## 热门库
-日志操作 https://github.com/sirupsen/logrus
-
-
-## 构建go
-利用docker去交叉编译，解决环境问题是个不错的选择
-https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07
-
++ [golang学习笔记整理](golang.md)  
++ [kafka学习笔记整理](kafka.md)
