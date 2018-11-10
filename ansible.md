@@ -49,3 +49,6 @@
 `mysql_user: name={{ dbuser }} password={{ dbpassword }} priv={{ dbname }}.*:ALL host='localhost' state=present`  
 + 文件魔板  
 `template: src=wp-config.php dest=/srv/wordpress/`  
+
+### 相关的网址
+https://galaxy.ansible.com
