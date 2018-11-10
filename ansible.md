@@ -1,4 +1,5 @@
-## Ansible 使用笔记
+# Ansible 使用笔记
+## ansible 常用命令
 复制文件  
 `ansible hosts -m copy -a "src=/etc/hosts dest=/tmp/hosts"`  
 修改文件属性  
@@ -31,7 +32,11 @@
     service: name=supervisord state=started  
 ```
 
-其他的一些常用moudle
+### 运行playbook
+`ansible-playbook playbook.yml -f 10`  
+`ansible-playbook playbook.yml --list-hosts`  
+
+###其他的一些常用moudle
 + 用wget下载  
 `get_url: url=http://**** dest=/srv/**** sha256sum="****"`   
 + 添加group  
