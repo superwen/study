@@ -10,3 +10,25 @@
 
 包管理  
 `ansible hosts -m yum -a "name=supervisor state=present"`  
+
+## playbook 常用
+```
+- hosts: tt
+  vars:
+    http_port: 80
+    max_clients: 200
+  become: yes
+  tasks:
+  - name: install_nginx
+    yum: pkg=nginx state=latest
+  - name: start_nginx
+    service: name=nginx state=started
+  - name: install_supervisor
+    yum: pkg=supervisor state=latest
+  - name: config_supervisor
+    command: echo_supervisord_conf /etc/supervisord.conf  
+  - name: start_supervisor
+    service: name=supervisord state=started  
+```
+
+这是什么情况
