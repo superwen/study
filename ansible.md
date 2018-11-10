@@ -36,7 +36,7 @@
 `ansible-playbook playbook.yml -f 10`  
 `ansible-playbook playbook.yml --list-hosts`  
 
-###其他的一些常用moudle
+### 其他的一些常用moudle
 + 用wget下载  
 `get_url: url=http://**** dest=/srv/**** sha256sum="****"`   
 + 添加group  
