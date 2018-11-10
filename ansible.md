@@ -34,13 +34,13 @@
 其他的一些常用moudle
 + 用wget下载  
 `get_url: url=http://**** dest=/srv/**** sha256sum="****"`   
-+ 添加group
++ 添加group  
 `group: name=wordpress`  
-+ 添加用户
++ 添加用户  
 `user: name=wordpress group=wordpress home=/srv/wordpress/`
-+ 创建数据库
++ 创建数据库  
 `mysql_db: name={{ wp_db_name }} state=present`  
-+ 添加数据库用户
++ 添加数据库用户  
 `mysql_user: name={{ dbuser }} password={{ dbpassword }} priv={{ dbname }}.*:ALL host='localhost' state=present`  
-+ 文件魔板
++ 文件魔板  
 `template: src=wp-config.php dest=/srv/wordpress/`  
