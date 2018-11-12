@@ -1,0 +1,39 @@
+Host adot-web01
+    HostName 111.231.204.164
+    User root
+Host adot-web02
+    HostName 140.143.66.71
+    User root
+Host adot-php01
+    HostName 111.231.215.36
+    User root
+Host adot-res
+    HostName 119.29.6.134
+    User root
+Host adot-f0
+    HostName 119.29.55.77
+    User root
+Host adot-f1
+    HostName 119.29.84.152
+    User root
+Host adot-f2
+    HostName 119.29.91.26
+    User root
+Host adot-f3
+    HostName 119.29.90.203
+    User root
+Host adot-f4
+    HostName 119.29.121.181
+    User root
+Host adot-f5
+    HostName 119.29.90.157
+    User root
+Host adot-cms
+    HostName 119.29.105.142
+    User root
+Host adot-push0
+    HostName 182.254.234.14
+    User root
+Host adot-mytv0
+    HostName 119.29.55.166
+    User root
