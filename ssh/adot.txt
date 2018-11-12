@@ -1,11 +1,5 @@
-Host adot-web01
-    HostName 111.231.204.164
-    User root
 Host adot-web02
     HostName 140.143.66.71
-    User root
-Host adot-php01
-    HostName 111.231.215.36
     User root
 Host adot-res
     HostName 119.29.6.134
