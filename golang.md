@@ -1,5 +1,14 @@
 ## 我整理的GO语言相关学习资料
 
+### 安装
+```
+tar -C /usr/local -xzf go1.10.2.linux-amd64.tar.gz
+mkdir -p /app/go1.10/src/github.com/huannet
+export GOROOT=/usr/local/go
+export GOPATH=/app/go1.10
+PATH=$PATH:/usr/local/go/bin:/app/go1.10/bin
+```
+
 ### 热门库整理
 常用的str工具集 https://github.com/mgutz/str  
 好用的日志操作 https://github.com/sirupsen/logrus  
