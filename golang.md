@@ -10,7 +10,7 @@ PATH=$PATH:/usr/local/go/bin:/app/go1.10/bin
 ```
 
 ### 热门库整理
-Etcd客户端 https://github.com/etcd-io/etcd
+Etcd客户端 https://github.com/etcd-io/etcd  
 常用的str工具集 https://github.com/mgutz/str  
 好用的日志操作 https://github.com/sirupsen/logrus  
 kafka客户端 https://github.com/Shopify/sarama  
