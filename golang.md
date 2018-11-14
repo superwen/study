@@ -14,8 +14,8 @@ Etcd客户端 https://github.com/etcd-io/etcd
 常用的str工具集 https://github.com/mgutz/str  
 好用的日志操作 https://github.com/sirupsen/logrus  
 kafka客户端 https://github.com/Shopify/sarama  
-强烈推荐json解析库 https://github.com/json-iterator/go
-crontab解析库 https://github.com/gorhill/cronexpr
+强烈推荐json解析库 https://github.com/json-iterator/go  
+crontab解析库 https://github.com/gorhill/cronexpr  
 
 ### 相关资料汇总
 golang语法例子  
