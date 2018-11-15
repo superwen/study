@@ -18,6 +18,8 @@ kafka客户端 https://github.com/Shopify/sarama
 crontab解析库 https://github.com/gorhill/cronexpr  
 
 ### 相关资料汇总
+gopher笔记  
+https://github.com/xmge/gonote  
 golang语法例子  
 https://gobyexample.com/  
 包管理工具gb  
