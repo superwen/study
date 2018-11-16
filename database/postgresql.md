@@ -19,12 +19,12 @@ psql
 CREATE USER dbuser WITH PASSWORD 'password';
 创建数据库
 CREATE DATABASE exampledb OWNER dbuser;
-修改用户密码
-\password dbuser
 ```
 接下来我们就可以使用刚才创建的用户登录控制台并连接到创建的数据库中来进行一系列的操作了  
 ```
 $ psql -U dbuser -d exampledb
+带密码访问
+$ psql -U dbuser -d exampledb -W
 ```
 
 常用的控制台命令
