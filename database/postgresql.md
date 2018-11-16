@@ -73,3 +73,21 @@ DROP TABLE IF EXISTS backup_table;
 \c postgres;
 DROP DATABASE IF EXISTS hello;
 ```
+用户及权限
+```
+create role db_role1 LOGIN; --创建具有登录权限的角色db_role1
+create role db_role2 SUPERUSER; --创建具有超级用户权限的角色
+create role db_role3 CREATEDB; --创建具有创建数据库权限的角色
+create role db_role4 CREATEROLE --创建具有创建角色权限的角色
+alter role db_role1 nologin nocreatedb; --修改角色取消登录和创建数据库权限
+
+create user db_user1 password '123'; --创建用户
+create role db_user1 password '123' LOGIN;  --同上一句等价
+drop user db_user1;   --删除用户
+alter user db_user1 password '123456'; --修改密码
+
+create user db_user1; --创建用户1
+create user db_user2; --创建用户2
+create role db_role1 createdb createrole; --创建角色1
+grant db_role1 to db_user1,db_user2; --给用户1,2赋予角色1,两个用户就拥有了创建数据库和创建角色的权限
+```
