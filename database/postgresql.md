@@ -20,6 +20,15 @@ CREATE USER dbuser WITH PASSWORD 'password';
 创建数据库
 CREATE DATABASE exampledb OWNER dbuser;
 ```
+修改认证方式
+```
+/var/lib/pgsql/9.6/data/pg_hba.conf
+```
+将IP4下面的配置改为
+```
+host    all             all             172.29.3.67/32          trust
+```
+
 接下来我们就可以使用刚才创建的用户登录控制台并连接到创建的数据库中来进行一系列的操作了  
 ```
 $ psql -U dbuser -d exampledb
