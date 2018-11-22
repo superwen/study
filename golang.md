@@ -9,6 +9,11 @@ export GOPATH=/app/go1.10
 PATH=$PATH:/usr/local/go/bin:/app/go1.10/bin
 ```
 
+### 交叉编译
+```
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build {package_path}
+```
+
 ### 热门库整理
 Etcd客户端 https://github.com/etcd-io/etcd  
 常用的str工具集 https://github.com/mgutz/str  
