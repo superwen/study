@@ -25,6 +25,7 @@ crontab解析库 https://github.com/gorhill/cronexpr
 YAML解析库 https://github.com/go-yaml/yaml  
 基于内存的cache库 https://github.com/patrickmn/go-cache  
 命令行工具 https://github.com/urfave/cli *****   
+配置加载库 https://github.com/jinzhu/configor ****  
 
 
 ### 相关资料汇总
