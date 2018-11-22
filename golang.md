@@ -16,6 +16,7 @@ Etcd客户端 https://github.com/etcd-io/etcd
 kafka客户端 https://github.com/Shopify/sarama  
 强烈推荐json解析库 https://github.com/json-iterator/go  
 crontab解析库 https://github.com/gorhill/cronexpr  
+好的captcha库 https://github.com/dchest/captcha  
 
 ### 相关资料汇总
 gopher笔记  
