@@ -15,6 +15,8 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build {package_path}
 ```
 
 ### 热门库整理
+web框架 https://github.com/kataras/iris *****  
+orm不用多说 github.com/jinzhu/gorm *****  
 Etcd客户端 https://github.com/etcd-io/etcd  
 常用的str工具集 https://github.com/mgutz/str  
 好用的日志操作 https://github.com/sirupsen/logrus  
@@ -27,6 +29,9 @@ YAML解析库 https://github.com/go-yaml/yaml
 命令行工具 https://github.com/urfave/cli *****   
 配置加载库 https://github.com/jinzhu/configor ****  
 
+### 热门项目
+国人用go开发的git server *****  
+https://github.com/gogs/gogs  
 
 ### 相关资料汇总
 gopher笔记  
