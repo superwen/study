@@ -38,9 +38,9 @@ YAML解析库 https://github.com/go-yaml/yaml
 ### 热门项目
 国人用go开发的git server *****  
 https://github.com/gogs/gogs  
-国人写的《Go入门指南》  
+国人无闻写的《Go入门指南》  
 https://github.com/Unknwon/the-way-to-go_ZH_CN  
-同样的《Go 编程基础》  
+同样无闻出的《Go 编程基础》免费视频教程  
 https://github.com/Unknwon/go-fundamental-programming  
 
 ### 相关资料汇总
