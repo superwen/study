@@ -38,6 +38,8 @@ YAML解析库 https://github.com/go-yaml/yaml
 ### 热门项目
 国人用go开发的git server *****  
 https://github.com/gogs/gogs  
+Macaron 是一个具有高生产力和模块化设计的 Go Web 框架  
+https://go-macaron.com/docs  
 国人无闻写的《Go入门指南》  
 https://github.com/Unknwon/the-way-to-go_ZH_CN  
 同样无闻出的《Go 编程基础》免费视频教程  
