@@ -35,6 +35,8 @@ YAML解析库 https://github.com/go-yaml/yaml
 配置加载库 https://github.com/jinzhu/configor ****  
 类似jquery的dom解析库 https://github.com/PuerkitoBio/goquery  
 阿里云oss https://github.com/aliyun/aliyun-oss-go-sdk  
+模型验证 gopkg.in/go-playground/validator.v9  
+模型验证 github.com/asaskevich/govalidator  
 
 ### 热门项目
 国人用go开发的git server *****  
