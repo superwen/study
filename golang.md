@@ -22,6 +22,7 @@ https://github.com/gomods/athens
 ### 热门库整理
 web框架 https://github.com/kataras/iris *****  
 orm不用多说 github.com/jinzhu/gorm *****  
+mongoDb客户端 https://github.com/globalsign/mgo  
 Etcd客户端 https://github.com/etcd-io/etcd  
 常用的str工具集 https://github.com/mgutz/str  
 好用的日志操作 https://github.com/sirupsen/logrus  
