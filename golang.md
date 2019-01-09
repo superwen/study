@@ -20,6 +20,9 @@ https://github.com/gomods/athens
 具体使用方法见[golang/athens.md](golang/athens.md)  
 vgo的使用方法 https://github.com/wuyumin/vgo/blob/master/docs/zh-CN.md  
 
+### 推荐框架  
+比较热的web框架revel https://revel.github.io/  
+
 ### 热门库整理
 web框架 https://github.com/kataras/iris *****  
 orm不用多说 github.com/jinzhu/gorm *****  
