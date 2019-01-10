@@ -26,3 +26,6 @@ push
  
 git rm --cached IrisWeather
 ```
+
+#### 常用命令
+[常用命令](http://alicdn.epg.huan.tv/epg/tech/git-command.jpg)
