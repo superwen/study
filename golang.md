@@ -21,10 +21,11 @@ https://github.com/gomods/athens
 vgo的使用方法 https://github.com/wuyumin/vgo/blob/master/docs/zh-CN.md  
 
 ### 推荐框架  
-比较热的web框架revel https://revel.github.io/  
+web框架 https://github.com/kataras/iris *****  
+比较热的web框架revel https://revel.github.io/  *****
 
 ### 热门库整理
-web框架 https://github.com/kataras/iris *****  
+redis库 https://github.com/gomodule/redigo  
 orm不用多说 github.com/jinzhu/gorm *****  
 mongoDb客户端 https://github.com/globalsign/mgo  
 Etcd客户端 https://github.com/etcd-io/etcd  
@@ -40,7 +41,7 @@ YAML解析库 https://github.com/go-yaml/yaml
 配置加载库 https://github.com/jinzhu/configor *****  
 类似jquery的dom解析库 https://github.com/PuerkitoBio/goquery  
 阿里云oss https://github.com/aliyun/aliyun-oss-go-sdk  
-模型验证 gopkg.in/go-playground/validator.v9（iris推荐使用这个）  
+模型验证 gopkg.in/go-playground/validator.v9（iris推荐使用这个）*****     
 模型验证 github.com/asaskevich/govalidator  
 
 ### 热门项目
