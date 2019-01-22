@@ -1,22 +1,20 @@
+### centos下安装步骤
+https://github.com/Altinity/clickhouse-rpm-install  
+
+### Ubuntu下的安装步骤
 ```
-
-
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv E0C56BD4    # optional
-
 sudo apt-add-repository "deb http://repo.yandex.ru/clickhouse/deb/stable/ main/"
 sudo apt-get update
-
 sudo apt-get install -y clickhouse-server clickhouse-client
 
 sudo service clickhouse-server start
-clickhouse-client
+sudo service clickhouse-server stop
+sudo service clickhouse-server start
+```
 
-参考运维指南->参数设置->设置数据目录
-sudo service clickhouse-server start 
-
-service clickhouse-server stop
-service clickhouse-server start
-
+### 命令行工具
+```
 clickhouse-client
 clickhouse-client –host 192.168.3.54 –port 9000 –database default–user default –password “” 
 
