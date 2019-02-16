@@ -19,3 +19,31 @@ func Repository() *repository {
     return r
 }
 ```
+再比如数据库连接实例
+```go
+
+import (
+	"gopkg.in/mgo.v2"
+	"sync"
+)
+
+type Mongodb struct {
+	Connect string //连接字符串
+}
+
+var (
+	m          *Mongodb
+	once       sync.Once
+)
+
+/**
+ * 返回单例实例
+ * @method New
+ */
+func New(connect string) *Mongodb {
+	once.Do(func() { //只执行一次
+		m = &Mongodb{Connect: connect}
+	})
+	return m
+}
+```
