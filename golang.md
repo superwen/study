@@ -54,6 +54,10 @@ https://github.com/Unknwon/the-way-to-go_ZH_CN
 同样无闻出的《Go 编程基础》免费视频教程  
 https://github.com/Unknwon/go-fundamental-programming  
 
+### 基础入门参考项目
+一个简单的明星库项目 https://github.com/yz124/superstar    
+go实现的blog项目 https://github.com/b3log/pipe  
+
 ### 相关资料汇总
 gopher笔记  
 https://github.com/xmge/gonote  
