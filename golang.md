@@ -53,10 +53,16 @@ https://go-macaron.com/docs
 https://github.com/Unknwon/the-way-to-go_ZH_CN  
 同样无闻出的《Go 编程基础》免费视频教程  
 https://github.com/Unknwon/go-fundamental-programming  
+国人开发的一个web开发框架还不错  
+https://github.com/henrylee2cn/faygo
 
 ### 基础入门参考项目
-一个简单的明星库项目 https://github.com/yz124/superstar    
-go实现的blog项目 https://github.com/b3log/pipe  
+一个简单的明星库项目  
+https://github.com/yz124/superstar    
+go实现的blog项目  
+https://github.com/b3log/pipe  
+iris和xorm实现的后台api  
+https://github.com/snowlyg/IrisApiProject
 
 ### 相关资料汇总
 gopher笔记  
