@@ -43,6 +43,7 @@ YAML解析库 https://github.com/go-yaml/yaml
 阿里云oss https://github.com/aliyun/aliyun-oss-go-sdk  
 模型验证 gopkg.in/go-playground/validator.v9（iris推荐使用这个）*****     
 模型验证 github.com/asaskevich/govalidator  
+无闻大师的ini库 https://github.com/go-ini/ini  
 
 ### 热门项目
 国人用go开发的git server *****  
