@@ -33,6 +33,7 @@ Etcd客户端 https://github.com/etcd-io/etcd
 好用的日志操作 https://github.com/sirupsen/logrus  
 kafka客户端 https://github.com/Shopify/sarama  
 强烈推荐json解析库 https://github.com/json-iterator/go  *****  
+不固定数据结构的json解析库 https://github.com/buger/jsonparser ****  
 crontab解析库 https://github.com/gorhill/cronexpr  
 好的captcha库 https://github.com/dchest/captcha  
 YAML解析库 https://github.com/go-yaml/yaml  
