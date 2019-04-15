@@ -25,6 +25,7 @@ web框架 https://github.com/kataras/iris *****
 比较热的web框架revel https://revel.github.io/  *****
 
 ### 热门库整理
+目前golang性能最好的http库 https://github.com/valyala/fasthttp  
 redis库 https://github.com/gomodule/redigo  
 orm不用多说 github.com/jinzhu/gorm *****  
 mongoDb客户端 https://github.com/globalsign/mgo  
