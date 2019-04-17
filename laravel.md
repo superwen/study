@@ -8,6 +8,9 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 局部镜像
 composer config repo.packagist composer https://packagist.phpcomposer.com
 
+生产环境下autoload
+composer dump-autoload -o --no-dev --classmap-authoritative
+
 推荐的库
 https://packagist.org/packages/prettus/l5-repository
 https://packagist.org/packages/zizaco/entrust
