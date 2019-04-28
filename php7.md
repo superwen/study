@@ -113,9 +113,17 @@ server {
 
     charset utf-8;
     root /hwdata/www/;
-    access_log  /hwdata/log/nginx/localhost.access.log  main;
+    # 配置日志缓存及时间
+    access_log  /hwdata/log/nginx/localhost.access.log main buffer=256k flush=2s;
     error_log /hwdata/log/nginx/localhost.error.log;
     index index.php index.html index.htm;
+    
+    # 不允许被本域以外的页面嵌入；
+    add_header X-Frame-Options "SAMEORIGIN"; 
+    # 启用XSS保护，并在检查到XSS攻击时，停止渲染页面
+    add_header X-XSS-Protection "1; mode=block";
+    # 禁用浏览器的类型猜测
+    add_header X-Content-Type-Options "nosniff";
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
