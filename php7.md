@@ -118,6 +118,10 @@ server {
     error_log /hwdata/log/nginx/localhost.error.log;
     index index.php index.html index.htm;
     
+    # 去除 Nginx 的 X-Powered-By header
+    fastcgi_hide_header X-Powered-By;
+    # 去除 nginx 版本
+    server_tokens off;
     # 不允许被本域以外的页面嵌入；
     add_header X-Frame-Options "SAMEORIGIN"; 
     # 启用XSS保护，并在检查到XSS攻击时，停止渲染页面
@@ -143,9 +147,11 @@ server {
 	fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
     }
     
-    location ~* \.(html|js|css|png|jpg|jpeg|gif|ico)$ {
-        expires 24h;
-        log_not_found off;
+    location ~* \.(jpg|jpeg|gif|png|bmp|ico|pdf|flv|swf|exe|html|htm|txt|css|js) {
+            add_header        Cache-Control public;
+            add_header        Cache-Control must-revalidate;
+            expires           7d;
+	    log_not_found off;
     }
     
     location = /favicon.ico {
