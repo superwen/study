@@ -19,6 +19,8 @@ go get github.com/micro/micro
 # clone 下来 build一下，运行就可以
 go get github.com/micro/examples/greeter/srv && srv
 
+# protoc --go_out=plugins=micro:
+
 # 查看在运行的services
 micro list services
 
