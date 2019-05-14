@@ -12,6 +12,7 @@ go get github.com/micro/protobuf/{proto,protoc-gen-go}
 
 # 安装micro工具包
 go get github.com/micro/micro
+go get -u -v github.com/micro/protoc-gen-micro
 
 # 开发service
 # 这里面有一个例子
@@ -20,6 +21,7 @@ go get github.com/micro/micro
 go get github.com/micro/examples/greeter/srv && srv
 
 # protoc --go_out=plugins=micro:
+# protoc --proto_path=$GOPATH/src:. --micro_out=. --go_out=. greeter.proto
 
 # 查看在运行的services
 micro list services
