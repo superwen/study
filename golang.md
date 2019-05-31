@@ -2,6 +2,7 @@
 
 ### 安装
 ```
+wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.10.2.linux-amd64.tar.gz
 mkdir -p /app/go1.10/src/github.com/huannet
 export GOROOT=/usr/local/go
