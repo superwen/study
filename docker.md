@@ -1,6 +1,6 @@
 # CCentos7 下安装docker
-
-yum update
+```
+yum -y update
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum list docker-ce --showduplicates | sort -r
@@ -240,3 +240,5 @@ docker kill $(docker ps -q) ; docker rm $(docker ps -a -q) ; docker rmi $(docker
 
 删除所有的容器
 docker kill $(docker ps -q) ; docker rm $(docker ps -a -q) 
+
+```
