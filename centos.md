@@ -1,3 +1,9 @@
+centos 安装 mysql管理工具：mycli  
+```
+$ sudo yum install python-pip python-devel
+$ sudo pip install mycli
+```
+
 服务端创建可sudo用户，并且免密码    
 ```
 ssh user@ssh-server
