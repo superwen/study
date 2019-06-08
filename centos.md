@@ -3,6 +3,17 @@ centos 安装 mysql管理工具：mycli
 $ sudo yum install python-pip python-devel
 $ sudo pip install mycli
 ```
+修改 yum 源为 阿里源
+```
+$ cd /etc/yum.repos.d
+$ mv CentOS-Base.repo CentOS-Base.repo.bak
+$ wget -O CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+$ wget -O /epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+
+$ yum clean all
+$ yum makecache
+$ yum update
+```
 
 服务端创建可sudo用户，并且免密码    
 ```
