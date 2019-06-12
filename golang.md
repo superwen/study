@@ -19,7 +19,7 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build {package_path}
 go1.11以后使用go mod来管理包，但是对于被墙的问题，可以使用proxy工具athens  
 https://github.com/gomods/athens  
 具体使用方法见[golang/athens.md](golang/athens.md)  
-vgo的使用方法 https://github.com/wuyumin/vgo/blob/master/docs/zh-CN.md  
+vgo的使用方法 https://segmentfault.com/a/1190000016146377    
 
 ### 推荐框架  
 web框架 https://github.com/kataras/iris *****  
