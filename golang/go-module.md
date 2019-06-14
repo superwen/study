@@ -9,3 +9,12 @@ go mod tidy
 go mod vendor
 go build -mod=vendor
 ```
+
+常用的源替换有:  
+```
+go mod edit -replace=golang.org/x/tour=github.com/golang/tour@latest
+go mod edit -replace=golang.org/x/tour=github.com/golang/tour@latest
+go mod edit -replace=golang.org/x/tour=github.com/golang/tour@latest
+go mod edit -replace=golang.org/x/tour=github.com/golang/tour@latest
+go mod edit -replace=golang.org/x/tour=github.com/golang/tour@latest
+```
