@@ -23,3 +23,15 @@ go mod download <path@version>下载依赖。参数<path@version>是非必写的
 其它命令可以通过go help mod来查看。
 
 ```
+常用的replace
+```
+go mod edit -replace=golang.org/x/build@latest=github.com/golang/build@latest
+go mod edit -replace=golang.org/x/crypto@latest=github.com/golang/crypto@latest
+go mod edit -replace=golang.org/x/mobile@latest=github.com/golang/mobile@latest
+go mod edit -replace=golang.org/x/net@latest=github.com/golang/net@latest
+go mod edit -replace=golang.org/x/sync@latest=github.com/golang/sync@latest
+go mod edit -replace=golang.org/x/sys@latest=github.com/golang/sys@latest
+go mod edit -replace=golang.org/x/text@latest=github.com/golang/text@latest
+go mod edit -replace=golang.org/x/time@latest=github.com/golang/time@latest
+go mod edit -replace=golang.org/x/tools@latest=github.com/golang/tools@latest
+```
