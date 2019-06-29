@@ -49,6 +49,8 @@ YAML解析库 https://github.com/go-yaml/yaml
 无闻大师的ini库 https://github.com/go-ini/ini  
 
 ### 热门项目
+国人开发的一个基于beego的cms  
+https://github.com/yunnet/gardens  
 国人用go开发的git server *****  
 https://github.com/gogs/gogs  
 Macaron 是一个具有高生产力和模块化设计的 Go Web 框架  
