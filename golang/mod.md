@@ -1,3 +1,8 @@
+推荐使用阿里的代理
+```
+https://mirrors.aliyun.com/goproxy
+```
+
 ```
 设置环境变量 GOPROXY 的值为代理网址，目前可用的模块公共代理网址有:
 https://goproxy.io
