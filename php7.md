@@ -331,6 +331,8 @@ $ cat /var/log/mysqld.log |grep password
 $ /usr/bin/mysql_secure_installation
 // 输入刚刚cat的密码，修改新密码，同时清除test库等。
 ```
+如需安装mariadb，可以看这里：  
+https://blog.csdn.net/Ling_ShaHua/article/details/88846551  
 
 创建数据库，添加用户，注意5.7以后密码加了强验证，密码必须保证有大小写字母和数字。  
 ```
