@@ -1,3 +1,8 @@
+需改GO111MODULE
+```
+export GO111MODULE=on
+```
+
 推荐使用阿里的代理
 ```
 https://mirrors.aliyun.com/goproxy
