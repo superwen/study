@@ -1,4 +1,4 @@
-# CCentos7 下安装docker
+## CCentos7 下安装docker
 ```
 yum -y update
 yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -9,54 +9,30 @@ yum install docker-ce
 systemctl start docker
 systemctl enable docker
 docker version
-
+```
+## 安装docker-compose
+```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
+```
+## 创建网络
+```
+docker network create -d bridge huannet
+```
 
-
-
+## 删除docker
 如果之前安装过docker，删除docker的方法：
+```
 yum remove docker docker-common docker-selinux docker-engine -y
 /etc/systemd -name '*docker*' -exec rm -f {} ;
 find /etc/systemd -name '*docker*' -exec rm -f {} \;
 find /lib/systemd -name '*docker*' -exec rm -f {} \;
+```
 
-
-
-
-
-
-
-
-
-
-
-
-#确定centos内核
-$ uname -r
-3.10.0-229.el7.x86_64
-
-#yum update
-$ yum -y update
-
-#添加源
-$ vi /etc/yum.repos.d/docker.repo
-[dockerrepo]
-name=Docker Repository
-baseurl=https://yum.dockerproject.org/repo/main/centos/7/
-enabled=1
-gpgcheck=1
-gpgkey=https://yum.dockerproject.org/gpg
-
-$ sudo yum install -y docker-engine
-$ sudo systemctl start docker
-
-
-
-
-
+## 常用用法
+```
 $ docker pull centos:latest
 $ docker run -t -i centos /bin/bash
 
