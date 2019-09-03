@@ -1,4 +1,4 @@
-## CCentos7 下安装docker
+## Centos7 下安装docker
 ```
 yum -y update
 yum install -y yum-utils device-mapper-persistent-data lvm2
