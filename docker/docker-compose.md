@@ -8,10 +8,11 @@ networks:
 services:
   mysql:
     image: mysql:5.7
+    container_name: mysql01
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=tureture
+      MYSQL_ROOT_PASSWORD: "portalhuan2009"
     ports:
       - "3306:3306"  
     volumes:
