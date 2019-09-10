@@ -1,5 +1,24 @@
 ## 我整理的GO语言相关学习资料
 
+
+### go1.13相关
+设置代理
+```
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+设置不走代理的源
+```
+go env -w GOPRIVATE=gogs.cedock.com
+```
+由于验证包的服务器是 sum.golang.org ，被墙，可以关闭验证包
+```
+go env -w GOSUMDB=off
+```
+也可以设置验证包服务器
+```
+go env -w GOSUMDB=sum.golang.google.cn
+```
+
 ### 安装
 ```
 wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
