@@ -42,7 +42,7 @@ vgo的使用方法 [wuyumin/tutorial/Modules](https://github.com/wuyumin/tutoria
 
 ### 推荐框架  
 web框架 https://github.com/kataras/iris *****  
-比较热的web框架revel https://revel.github.io/  *****
+比较热的web框架revel https://revel.github.io/  *****  
 一个比较好的GUI框架  https://github.com/andlabs/ui ****  
 
 ### 热门库整理
