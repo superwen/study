@@ -1,5 +1,8 @@
 ## 我整理的GO语言相关学习资料
 
+### 正在学习的
+[高性能 Go 代码工坊》中译](https://www.yuque.com/ksco/uiondt)  
+
 
 ### go1.13相关
 设置代理
