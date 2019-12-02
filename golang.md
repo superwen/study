@@ -2,6 +2,7 @@
 
 ### 正在学习的
 [高性能 Go 代码工坊》中译](https://www.yuque.com/ksco/uiondt)  
+[Golang 程序员开发效率神器汇总！](https://segmentfault.com/a/1190000021155038)  
 
 
 ### go1.13相关
