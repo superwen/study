@@ -52,6 +52,7 @@ web框架 https://github.com/kataras/iris *****
 一个比较好的GUI框架  https://github.com/andlabs/ui ****  
 
 ### 热门库整理
+一个更快的json解析库 https://github.com/segmentio/encoding  
 目前golang性能最好的http库 https://github.com/valyala/fasthttp  
 redis库 https://github.com/gomodule/redigo  
 orm不用多说 github.com/jinzhu/gorm *****  
