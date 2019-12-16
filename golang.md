@@ -1,6 +1,7 @@
 ## 我整理的GO语言相关学习资料
 
 ### 正在学习的
+[煎鱼的迷之博客go-gin-example](https://book.eddycjy.com/golang/gin/install.html)  
 [高性能 Go 代码工坊》中译](https://www.yuque.com/ksco/uiondt)  
 [Golang 程序员开发效率神器汇总！](https://segmentfault.com/a/1190000021155038)  
 [Go语法基础与工程实践](https://github.com/wx-chevalier/Go-Series)  
