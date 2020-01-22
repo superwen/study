@@ -6,7 +6,7 @@
 [Golang 程序员开发效率神器汇总！](https://segmentfault.com/a/1190000021155038)  
 [Go语法基础与工程实践](https://github.com/wx-chevalier/Go-Series)  
 [go开发规范总结](https://github.com/cristaloleg/go-advices/blob/master/README_ZH.md)  
-
+[鉴权的框架](https://github.com/casbin/casbin)  
 
 ### go1.13相关
 设置代理
