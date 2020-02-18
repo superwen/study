@@ -53,7 +53,8 @@ web框架 https://github.com/kataras/iris *****
 一个比较好的GUI框架  https://github.com/andlabs/ui ****  
 
 ### 热门库整理
-[一个配置库](http://github.com/spf13/viper)   
+[一个快速的结构化的日志库](https://github.com/uber-go/zap) https://github.com/uber-go/zap  
+[一个配置库](http://github.com/spf13/viper) http://github.com/spf13/viper  
 一个更快的json解析库 https://github.com/segmentio/encoding  
 目前golang性能最好的http库 https://github.com/valyala/fasthttp  
 redis库 https://github.com/gomodule/redigo  
