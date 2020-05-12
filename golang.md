@@ -53,6 +53,7 @@ web框架 https://github.com/kataras/iris *****
 一个比较好的GUI框架  https://github.com/andlabs/ui ****  
 
 ### 热门库整理
+[go语言数组及集合处理函数]（https://github.com/emirpasic/gods） https://github.com/emirpasic/gods  
 [一个快速的结构化的日志库](https://github.com/uber-go/zap) https://github.com/uber-go/zap  
 [一个配置库](http://github.com/spf13/viper) http://github.com/spf13/viper  
 一个更快的json解析库 https://github.com/segmentio/encoding  
