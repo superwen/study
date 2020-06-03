@@ -102,7 +102,7 @@ $ docker exec mysql01 sh -c 'exec mysqldump epg -uroot -pportalhuan' > /hwdata/b
 $ docker pull redis
 $ docker run --name redis01 -d redis -p 6379:6379
 #持久化
-$ docker run --name redis01 -d redis redis-server -p 6379:6379 --appendonly yes
+$ docker run --name redis01 -d redis redis-server -p 6379:6379 --appendonly yes -v /hwdata/redis:/data
 
 $ docker run -d --name redis -p 6379:6379 bitnami/redis:latest
 $ docker pull bitnami/redis:latest
