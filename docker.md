@@ -17,6 +17,18 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 ```
+
+## 修改国内镜像
+创建或修改 /etc/docker/daemon.json 文件  
+```
+{
+    "registry-mirrors": ["https://registry.docker-cn.com"]
+}
+```
+然后重启docker
+```
+systemctl restart docker
+```
 ## 创建网络
 ```
 docker network create -d bridge huannet
