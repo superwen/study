@@ -44,6 +44,16 @@ https://docker.mirrors.ustc.edu.cn
 阿里云容器服务  
 https://cr.console.aliyun.com/  
 
+## 使用docker创建php环境
+```
+docker pull richarvey/nginx-php-fpm
+```
+将你的代码上传到 github上  
+通过环境变量指定源地址和web根目录即可。  
+```
+docker run -e 'GIT_REPO=https://github.com/superwen/hello-php.git' -e 'WEBROOT=/var/www/html/src/' -d --name hello-php -p 80:80 richarvey/nginx-php-fpm:latest
+```
+
 ## 创建网络
 ```
 docker network create -d bridge huannet
