@@ -29,6 +29,21 @@ docker-compose version
 ```
 systemctl restart docker
 ```
+Docker中国区官方镜像  
+https://registry.docker-cn.com  
+
+网易  
+http://hub-mirror.c.163.com  
+
+ustc  
+https://docker.mirrors.ustc.edu.cn  
+
+中国科技大学  
+https://docker.mirrors.ustc.edu.cn  
+
+阿里云容器服务  
+https://cr.console.aliyun.com/  
+
 ## 创建网络
 ```
 docker network create -d bridge huannet
