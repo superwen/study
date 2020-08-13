@@ -1,3 +1,13 @@
+### composer使用中国镜像
+修改 composer 的全局配置文件（推荐方式）
+```
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+```
+解除镜像
+```
+composer config -g --unset repos.packagist
+```
+
 ### 使用 263 的yum 源
 ```
 $ mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
