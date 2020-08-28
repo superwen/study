@@ -1,3 +1,7 @@
+```
+kill -9 `ps -ef|grep "zhaobiao"|grep -v "grep"|awk '{print $2} '`
+```
+
 centos 安装 mysql管理工具：mycli  
 ```
 $ sudo yum install python-pip python-devel
