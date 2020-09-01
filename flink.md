@@ -1,11 +1,11 @@
 ```
 mvn archetype:generate \
-    -DarchetypeGroupId=com.superwen.flink \
-    -DarchetypeArtifactId=flink-demo001 \
-    -DarchetypeVersion=1.0.0 \
+    -DarchetypeGroupId=org.apache.flink \
+    -DarchetypeArtifactId=flink-quickstart-java \
+    -DarchetypeVersion=1.6.2 \
     -DarchetypeCatalog=local \
-    -DgroupId=frauddetection \
-    -DartifactId=frauddetection \
+    -DgroupId=com.superwen.flink \
+    -DartifactId=first-flink-demo \
     -Dversion=0.1 \
     -Dpackage=spendreport \
     -DinteractiveMode=false
