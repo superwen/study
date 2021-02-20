@@ -335,6 +335,7 @@ $ yum install -y http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch
 $ yum install -y mysql mysql-devel mysql-server mysql-utilities
 
 # 国内源本地安装
+# rpm包下载地址
 $ curl -L -O http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/MySQL-5.7/mysql-community-server-5.7.33-1.el7.x86_64.rpm
 $ curl -L -O http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/MySQL-5.7/mysql-community-common-5.7.33-1.el7.x86_64.rpm
 $ yum localinstall mysql-community-common-5.7.33-1.el7.x86_64.rpm
