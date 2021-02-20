@@ -358,7 +358,7 @@ https://blog.csdn.net/Ling_ShaHua/article/details/88846551
 
 创建数据库，添加用户，注意5.7以后密码加了强验证，密码必须保证有大小写字母和数字。  
 ```
-mysql> create database `laravel-epg` default character set utf8;
+mysql> create database `laravel-epg` default character set utf8mb4;
 mysql> CREATE USER 'weather'@'10.35.36.16' IDENTIFIED BY 'Portalhuan#123';
 mysql> GRANT ALL PRIVILEGES ON `weather`.* TO 'weather'@'10.35.36.16' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES ;
